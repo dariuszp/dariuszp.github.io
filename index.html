@@ -169,8 +169,7 @@
 
     image.crossOrigin = 'anonymous';
     image.onload = function () {
-        console.log('start');
-        engine = new RainyDay({
+        engine = new window.RainyDay({
             image: this
         });
         engine.rain([ [3, 2, 2] ], 100);

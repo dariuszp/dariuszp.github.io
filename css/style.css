@@ -108,6 +108,6 @@ ul li img {
 }
 
 body canvas {
-    position: fixed;
+    position: fixed !important;
     z-index: -1;
 }
